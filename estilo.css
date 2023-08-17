@@ -1,0 +1,230 @@
+/* Configurações Globais */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C3820ff;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding-top: 2px;
+}
+
+/* Header */
+header {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #080E14ff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+/* Menu de Navegação */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    display: inline;
+}
+
+/* Adicione um pouco de margem à direita para aumentar o espaçamento */
+.menu li:not(:last-child) {
+    margin-right: 75px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #39ff14;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+
+/* Main */
+main {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+}
+
+/* Títulos */
+h1, h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Parágrafos */
+p {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #080E14ff;
+    color: #39ff14;
+    text-align: center;
+    padding: 1px;
+}
+
+
+/* Estilização do Formulário de Contato */
+.contato-form {
+    max-width: 600px;
+    width: 100%;
+    border: 1.5px solid #080E14ff;
+    background-color: #3C4959ff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contato-form label {
+    color: #39ff14;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid #080E14ff; /* Adicionei esta linha para a borda */
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+.contato-form button {
+    background-color: #080E14ff;
+    color: #39ff14;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contato-form button:hover {
+    background-color: #0C3820ff;
+    color: red;
+}
+
+/* Estilização adicional para a página de formação */
+.conteudo-formacao {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.curso,
+.idiomas {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+h3 {
+    justify-content: left;
+}
+ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Estilização para a página de início */
+.inicio {
+    background-image: url('seu-fundo-de-tela.jpg'); /* Substitua pelo caminho da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.inicio-texto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #39ff14;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #0C3820ff;
+}
+
+/* Estilize a página "Sobre Mim" */
+.sobre-main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-section,
+.interesses-section,
+.objetivos-section {
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.sobre-section h1,
+.interesses-section h2,
+.objetivos-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.sobre-section p,
+.interesses-section p,
+.objetivos-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* CSS HEX
+--malachite: 14E956ff;
+--rich-black:  #080E14ff;
+--french-gray: #B7C4D3ff;
+--charcoal: #3C4959ff;
+--dark-green: #0C3820ff; */
