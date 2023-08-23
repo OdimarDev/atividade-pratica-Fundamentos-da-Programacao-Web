@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
     padding-left: 10px;
-    padding-right: 100px;
+    padding-right: 10px;
 }
 
 li
@@ -252,10 +252,18 @@ ul li {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
-        padding-left: 0px;
-        padding-right: 0px;
         font-size: 13px;
-        padding: 2px;
+        padding: 2px 0;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #080E14ff;
+        display: flex;
+        justify-content: center;
+        padding-left: 1px;
+        padding-right: 1px;
     }
     .conteudo-formacao {
         max-width: 0px;
