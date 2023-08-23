@@ -29,7 +29,7 @@ header {
         padding-left: 3px;
         padding-right: 3px;
         font-size: 16px; /* Reduzir o tamanho da fonte */
-        padding: 3px 0; /* Reduzir o espaçamento interno */
+        padding: 1px 0; /* Reduzir o espaçamento interno */
     }
 }
 
