@@ -21,10 +21,10 @@ header {
     display: flex;
     justify-content: center;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 100px;
 }
 
-li
+
 
 /* Menu de Navegação */
 .menu {
@@ -129,6 +129,8 @@ footer {
     background-color: #0C3820ff;
     color: red;
 }
+
+
 
 .curso,
 .idiomas {
@@ -252,19 +254,13 @@ ul li {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-left: 0px;
-        margin: 0px;
-        margin-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 6px;
+        padding-right: 3px;
         font-size: 16px;
-        padding: 0px;
     }
+
     .conteudo-formacao {
-        max-width: 0px;
+        max-width: 800px;
         margin: 0;
         padding: 2px;
     }
@@ -273,18 +269,13 @@ ul li {
         background-size: cover;
         background-position: center;
         display: flex;
-        /* display: flex; 
-        align-items: center;*/
+        /* align-items: center;
         justify-content: center;
-        text-align: left;
+        text-align: center; */
         color: white;
-        margin: 0;
-    }
-    .formacao h1{
-        text-align: center;
     }
     .menu li:not(:last-child) {
-        margin-right: 3px;
+        margin-right: 8px;
     }
 }
 
