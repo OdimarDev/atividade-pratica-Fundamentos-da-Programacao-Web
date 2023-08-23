@@ -268,16 +268,13 @@ ul li {
         background-size: cover;
         background-position: center;
         /* display: flex; */
-        /* align-items: center;
-        justify-content: center;
-        text-align: center; */
+        /* align-items: center;*/
+        justify-content: left;;
+        text-align: left;
         color: white;
     }
     .menu li:not(:last-child) {
         margin-right: 8px;
-    }
-    ul li {
-        margin-bottom: 0px;
     }
 }
 
