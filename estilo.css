@@ -34,10 +34,10 @@ header {
     display: inline;
 }
 
-/* Adicione um pouco de margem à direita para aumentar o espaçamento */
-.menu li:not(:last-child) {
-    margin-right: 75px;
-}
+
+/* .menu li:not(:last-child) {
+    margin-right: 7px;
+} */
 
 .menu a {
     text-decoration: none;
@@ -102,7 +102,7 @@ footer {
 .contato-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1.5px solid #080E14ff; /* Adicionei esta linha para a borda */
+    border: 1.5px solid #080E14ff;
     margin-bottom: 15px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -147,10 +147,23 @@ ul li {
     margin-bottom: 5px;
 }
 
-
+/* .portifolio{
+    background-image: url('F:\\Dev\\ADS UNINTER\\FPW\\atividade_pratica\\Imagens\\backgrounds.jpg'); 
+} */
+.formacao{
+    background-image: url('Imagens\\backgrounds2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
 /* Estilização para a página de início */
 .inicio {
-    background-image: url('seu-fundo-de-tela.jpg'); /* Substitua pelo caminho da imagem de fundo */
+    background-image: url('Imagens\\backgrounds.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -188,15 +201,21 @@ ul li {
 }
 
 .btn-saiba-mais:hover {
-    background-color: #0C3820ff;
+    background-color: #080E14ff;
+    color: red;
+    border: 1.5px solid #3C4959ff;
+    font-weight: bold;
 }
 
 /* Estilize a página "Sobre Mim" */
 .sobre-main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
     padding: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .sobre-section,
