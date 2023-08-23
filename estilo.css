@@ -7,8 +7,7 @@ body {
     font-family: Arial, sans-serif;
     padding-top: 2px;
 }
-
-/* Header */
+/* Estilos padrão para o header */
 header {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -21,6 +20,15 @@ header {
     display: flex;
     justify-content: center;
 }
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 16px; /* Reduzir o tamanho da fonte */
+        padding: 5px 0; /* Reduzir o espaçamento interno */
+    }
+}
+
 /* Menu de Navegação */
 .menu {
     list-style-type: none;
