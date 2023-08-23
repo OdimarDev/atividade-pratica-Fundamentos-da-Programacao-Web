@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     padding-top: 2px;
 }
+
 /* Estilos padrão para o header */
 header {
     font-family: Arial, sans-serif;
@@ -23,14 +24,7 @@ header {
     padding-right: 100px;
 }
 
-/* Estilos para telas pequenas */
-@media screen and (max-width: 768px) {
-    header {
-        padding-left: 6px;
-        padding-right: 3px;
-        font-size: 16px; /* Reduzir o tamanho da fonte */
-    }
-}
+
 
 /* Menu de Navegação */
 .menu {
@@ -46,9 +40,9 @@ header {
 }
 
 
-/* .menu li:not(:last-child) {
+.menu li:not(:last-child) {
     margin-right: 7px;
-} */
+}
 
 .menu a {
     text-decoration: none;
@@ -70,7 +64,8 @@ main {
 }
 
 /* Títulos */
-h1, h3 {
+h1,
+h3 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -135,12 +130,7 @@ footer {
     color: red;
 }
 
-/* Estilização adicional para a página de formação */
-.conteudo-formacao {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 .curso,
 .idiomas {
@@ -151,9 +141,11 @@ ul {
     list-style-type: disc;
     margin-left: 20px;
 }
+
 h3 {
     justify-content: left;
 }
+
 ul li {
     margin-bottom: 5px;
 }
@@ -161,8 +153,8 @@ ul li {
 /* .portifolio{
     background-image: url('F:\\Dev\\ADS UNINTER\\FPW\\atividade_pratica\\Imagens\\backgrounds.jpg'); 
 } */
-.formacao{
-    background-image: url('Imagens\\backgrounds2.jpg'); 
+.formacao {
+    background-image: url('Imagens\\backgrounds2.jpg');
     background-size: cover;
     background-position: center;
     height: 150vh;
@@ -172,9 +164,17 @@ ul li {
     text-align: center;
     color: white;
 }
+
+/* Estilização adicional para a página de formação */
+.conteudo-formacao {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Estilização para a página de início */
 .inicio {
-    background-image: url('Imagens\\backgrounds.jpg'); 
+    background-image: url('Imagens\\backgrounds.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -249,6 +249,23 @@ ul li {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 768px) {
+    header {
+        padding-left: 6px;
+        padding-right: 3px;
+        font-size: 16px;
+        /* Reduzir o tamanho da fonte */
+    }
+
+    /* Estilização adicional para a página de formação */
+    .conteudo-formacao {
+        /* max-width: 800px; */
+        margin: 0 auto;
+        padding: 2px;
+    }
 }
 
 
