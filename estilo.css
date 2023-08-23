@@ -19,11 +19,15 @@ header {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 100px;
 }
 
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
+        padding-left: 3px;
+        padding-right: 3px;
         font-size: 16px; /* Reduzir o tamanho da fonte */
         padding: 3px 0; /* Reduzir o espaçamento interno */
     }
