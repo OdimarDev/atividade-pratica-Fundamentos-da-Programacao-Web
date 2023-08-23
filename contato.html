@@ -54,7 +54,7 @@
                         return;
                     }
 
-            
+                    else{
                     const emailSubject = "Contato do Portfólio - " + nome;
                     const emailBody = "Nome: " + nome + "\n" +
                                       "Email: " + email + "\n" +
@@ -65,7 +65,7 @@
                                        "&body=" + encodeURIComponent(emailBody);
         
                     window.open(mailtoLink);
-                    
+                    }
                 });
             });
         </script>
