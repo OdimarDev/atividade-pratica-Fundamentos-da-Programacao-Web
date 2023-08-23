@@ -35,7 +35,7 @@ header {
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: 15px;
     display: inline;
 }
 
@@ -131,6 +131,12 @@ footer {
 }
 
 
+.contato-form input:focus,
+.contato-form textarea:focus,
+.contato-form button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(57, 255, 20, 0.7); /* Estilo de foco */
+}
 
 .curso,
 .idiomas {
