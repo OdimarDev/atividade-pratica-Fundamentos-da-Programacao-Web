@@ -275,7 +275,7 @@ ul li {
         color: white;
     }
     .menu li:not(:last-child) {
-        margin-right: 7px;
+        margin-right: 8px;
     }
 }
 
