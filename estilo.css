@@ -252,6 +252,9 @@ ul li {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
+        margin-left: 0px;
+        margin: 0px;
+        margin-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
         font-size: 16px;
