@@ -240,6 +240,8 @@ ul li {
 .objetivos-section {
     margin-bottom: 30px;
     max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .sobre-section h1,
