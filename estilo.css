@@ -267,14 +267,14 @@ ul li {
         background-image: url('Imagens\\backgrounds2.jpg');
         background-size: cover;
         background-position: center;
-        /* display: flex; */
-        /* align-items: center;*/
+        display: flex;
+        align-items: center;
         justify-content: left;;
-        text-align: left;
+        
         color: white;
     }
     .menu li:not(:last-child) {
-        margin-right: 7px;
+        margin-right: 0px;
     }
 }
 
