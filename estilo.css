@@ -254,9 +254,10 @@ ul li {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-right: 3px;
         font-size: 16px;
+    /* Não mexa mais no header */
     }
 
     .conteudo-formacao {
@@ -264,15 +265,19 @@ ul li {
         margin: 0;
         padding: 2px;
     }
+    
     .formacao {
         background-image: url('Imagens\\backgrounds2.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
         /* align-items: center;
-        justify-content: center;
-        text-align: center; */
+        justify-content: center;*/
+        text-align: left; 
         color: white;
+    }
+    .formacao h1{
+        text-align: center; 
     }
     .menu li:not(:last-child) {
         margin-right: 8px;
