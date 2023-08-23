@@ -49,22 +49,17 @@
                     const mensagem = document.getElementById("mensagem").value;
 
                     // Verifica se os campos requeridos estão preenchidos
-                    if (nome.trim() === "" || email.trim() === "" || mensagem.trim() === "") {
-                        alert("Por favor, preencha todos os campos requeridos.");
-                        return;
-                    }
-
-                    else{
-                    const emailSubject = "Contato do Portfólio - " + nome;
-                    const emailBody = "Nome: " + nome + "\n" +
-                                      "Email: " + email + "\n" +
-                                      "Mensagem: " + mensagem;
+                    if (nome.trim() !== "" && email.trim() !== "" && mensagem.trim() !== "") {
+                        const emailSubject = "Contato do Portfólio Online - " + nome;
+                        const emailBody = "Nome: " + nome + "\n" +
+                                          "Email: " + email + "\n" +
+                                          "Mensagem: " + mensagem;
         
-                    const mailtoLink = "mailto:odimarr123@gmail.com" +
-                                       "?subject=" + encodeURIComponent(emailSubject) +
-                                       "&body=" + encodeURIComponent(emailBody);
+                        const mailtoLink = "mailto:odimarr123@gmail.com" +
+                                           "?subject=" + encodeURIComponent(emailSubject) +
+                                           "&body=" + encodeURIComponent(emailBody);
         
-                    window.open(mailtoLink);
+                        window.open(mailtoLink);
                     }
                 });
             });
