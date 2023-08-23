@@ -26,7 +26,7 @@ header {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
-        padding-left: 3px;
+        padding-left: 6px;
         padding-right: 3px;
         font-size: 16px; /* Reduzir o tamanho da fonte */
     }
