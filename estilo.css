@@ -24,7 +24,7 @@ header {
     padding-right: 100px;
 }
 
-
+li
 
 /* Menu de Navegação */
 .menu {
@@ -260,7 +260,6 @@ ul li {
     }
 
     .conteudo-formacao {
-        max-width: 700px;
         margin: 0;
         padding: 2px;
     }
@@ -276,6 +275,9 @@ ul li {
     }
     .menu li:not(:last-child) {
         margin-right: 8px;
+    }
+    ul li {
+        margin-bottom: 0px;
     }
 }
 
