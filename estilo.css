@@ -260,8 +260,8 @@ ul li {
     }
 
     .conteudo-formacao {
-        max-width: 800px;
-        margin: 0 auto;
+        max-width: 700px;
+        margin: 0;
         padding: 2px;
     }
     .formacao {
@@ -275,7 +275,7 @@ ul li {
         color: white;
     }
     .menu li:not(:last-child) {
-        margin-right: 5px;
+        margin-right: 7px;
     }
 }
 
