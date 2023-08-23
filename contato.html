@@ -49,9 +49,12 @@
                     const mensagem = document.getElementById("mensagem").value;
 
                     // Verifica se os campos requeridos estão preenchidos
-                    if (nome.trim() !== "" || email.trim() !== "" || mensagem.trim() !== "") {
-                        
-                
+                    if (nome.trim() === "" || email.trim() === "" || mensagem.trim() === "") {
+                        alert("Por favor, preencha todos os campos requeridos.");
+                        return;
+                    }
+
+            
                     const emailSubject = "Contato do Portfólio - " + nome;
                     const emailBody = "Nome: " + nome + "\n" +
                                       "Email: " + email + "\n" +
@@ -62,7 +65,7 @@
                                        "&body=" + encodeURIComponent(emailBody);
         
                     window.open(mailtoLink);
-                    }
+                    
                 });
             });
         </script>
