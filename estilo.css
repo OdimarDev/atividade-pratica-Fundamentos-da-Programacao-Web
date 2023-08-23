@@ -254,7 +254,7 @@ ul li {
     header {
         margin-left: 2px;
         font-size: 13px;
-        padding: 2px;
+        padding: 2px 0;
         font-family: Arial, sans-serif;
         font-weight: bold;
         position: fixed;
@@ -263,8 +263,8 @@ ul li {
         background-color: #080E14ff;
         display: flex;
         justify-content: center;
-        padding-left: 1px;
-        padding-right: 1px;
+        padding-left: 0 px;
+        padding-right: 0 px;
     }
     .conteudo-formacao {
         max-width: 0px;
