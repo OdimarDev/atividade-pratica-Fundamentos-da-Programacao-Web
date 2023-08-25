@@ -7,7 +7,9 @@
         <title>Odimar - Portfólio</title>
     </head>
     <body>
+        <!-- CABEÇALHO -->
         <header>
+            <!-- MENU DE NAVEGAÇÃO -->
             <nav>
                 <ul class="menu">
                     <li><a href="index.html">Início</a></li>
@@ -19,9 +21,11 @@
             </nav>
         </header>
 
+        <!-- CONTEÚDO PRINCIPAL -->
         <main>
             <h1>Entre em Contato</h1>
             <h3>Use o formulário abaixo para entrar em contato comigo:</h3>
+            <!-- FORMULARIO PARA CONTATO -->
             <form class="contato-form">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -35,14 +39,16 @@
                 <button type="submit" id="btnEnviar">Enviar</button>
             </form>
         </main>
+        <!-- RODAPÉ -->
         <footer>
             <p>&copy; 2023 - Odimar Ribeiro </p>
         </footer>
+        <!-- JAVESCRIPT REPONSAVEL POR ABRIR O PROVEDOR DE EMAIL PARA QUE A MENSAGEM SEJA ENCAMINHADA -->
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const btnEnviar = document.getElementById("btnEnviar");
                 btnEnviar.addEventListener("click", function(event) {
-                    event.preventDefault(); // Impede que o formulário seja enviado
+                    event.preventDefault(); 
         
                     const nome = document.getElementById("nome").value;
                     const email = document.getElementById("email").value;
