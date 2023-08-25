@@ -1,14 +1,16 @@
 /* Configurações Globais */
+/* Define estilos globais para o corpo do documento */
 body {
     margin: 0;
     padding: 0;
-    background-color: #0C3820ff;
-    color: white;
+    background-color: #0C3820ff; /* Cor de fundo */
+    color: white; /* Cor do texto */
     font-family: Arial, sans-serif;
     padding-top: 2px;
 }
 
 /* Estilos padrão para o header */
+/* Define estilos para o cabeçalho fixo no topo */
 header {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -16,7 +18,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #080E14ff;
+    background-color: #080E14ff; /* Cor de fundo */
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -24,9 +26,8 @@ header {
     padding-right: 100px;
 }
 
-
-
 /* Menu de Navegação */
+/* Define estilos para o menu de navegação */
 .menu {
     list-style-type: none;
     margin: 0;
@@ -39,22 +40,21 @@ header {
     display: inline;
 }
 
-
 .menu li:not(:last-child) {
-    margin-right: 85px;
+    margin-right: 85px; /* Espaçamento entre itens do menu */
 }
 
 .menu a {
     text-decoration: none;
-    color: #39ff14;
+    color: #39ff14; /* Cor do link normal */
 }
 
 .menu a:hover {
-    color: red;
+    color: red; /* Cor do link ao passar o mouse */
 }
 
-
 /* Main */
+/* Define estilos para a seção principal do conteúdo */
 main {
     padding: 80px;
     display: flex;
@@ -64,6 +64,7 @@ main {
 }
 
 /* Títulos */
+/* Define estilos para os títulos */
 h1,
 h3 {
     display: flex;
@@ -72,34 +73,36 @@ h3 {
 }
 
 /* Parágrafos */
+/* Define estilos para os parágrafos */
 p {
     display: flex;
     justify-content: center;
 }
 
 /* Footer */
+/* Define estilos para o rodapé */
 footer {
     width: 100%;
-    background-color: #080E14ff;
-    color: #39ff14;
+    background-color: #080E14ff; /* Cor de fundo */
+    color: #39ff14; /* Cor do texto */
     text-align: center;
     padding: 1px;
 }
 
-
 /* Estilização do Formulário de Contato */
+/* Define estilos para o formulário de contato */
 .contato-form {
     max-width: 600px;
     width: 100%;
-    border: 1.5px solid #080E14ff;
-    background-color: #3C4959ff;
+    border: 1.5px solid #080E14ff; /* Cor da borda */
+    background-color: #3C4959ff; /* Cor de fundo */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .contato-form label {
-    color: #39ff14;
+    color: #39ff14; /* Cor do rótulo */
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -108,17 +111,16 @@ footer {
 .contato-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1.5px solid #080E14ff;
+    border: 1.5px solid #080E14ff; /* Cor da borda */
     margin-bottom: 15px;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
 }
 
-
 .contato-form button {
-    background-color: #080E14ff;
-    color: #39ff14;
+    background-color: #080E14ff; /* Cor de fundo do botão */
+    color: #39ff14; /* Cor do texto do botão */
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -126,10 +128,9 @@ footer {
 }
 
 .contato-form button:hover {
-    background-color: #0C3820ff;
-    color: red;
+    background-color: #0C3820ff; /* Cor de fundo ao passar o mouse */
+    color: red; /* Cor do texto ao passar o mouse */
 }
-
 
 .contato-form input:focus,
 .contato-form textarea:focus,
@@ -138,29 +139,9 @@ footer {
     box-shadow: 0 0 5px rgba(57, 255, 20, 0.7); /* Estilo de foco */
 }
 
-.curso,
-.idiomas {
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-h3 {
-    justify-content: left;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-/* .portifolio{
-    background-image: url('F:\\Dev\\ADS UNINTER\\FPW\\atividade_pratica\\Imagens\\backgrounds.jpg'); 
-} */
+/* Estilização adicional para a página de formação */
 .formacao {
-    background-image: url('Imagens\\backgrounds2.jpg');
+    background-image: url('Imagens\\backgrounds2.jpg'); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
     height: 150vh;
@@ -168,7 +149,7 @@ ul li {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: white; /* Cor do texto */
 }
 
 /* Estilização adicional para a página de formação */
@@ -180,7 +161,7 @@ ul li {
 
 /* Estilização para a página de início */
 .inicio {
-    background-image: url('Imagens\\backgrounds.jpg');
+    background-image: url('Imagens\\backgrounds.jpg'); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -188,7 +169,7 @@ ul li {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: white; /* Cor do texto */
 }
 
 .inicio-texto {
@@ -210,17 +191,17 @@ ul li {
 .btn-saiba-mais {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #39ff14;
-    color: #fff;
+    background-color: #39ff14; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
 
 .btn-saiba-mais:hover {
-    background-color: #080E14ff;
-    color: red;
-    border: 1.5px solid #3C4959ff;
+    background-color: #080E14ff; /* Cor de fundo ao passar o mouse */
+    color: red; /* Cor do texto ao passar o mouse */
+    border: 1.5px solid #3C4959ff; /* Cor da borda ao passar o mouse */
     font-weight: bold;
 }
 
@@ -229,7 +210,7 @@ ul li {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: white; /* Cor do texto */
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -265,7 +246,6 @@ ul li {
         padding-left: 3px;
         padding-right: 3px;
         font-size: 16px;
-    /* Não mexa mais no header */
     }
 
     .conteudo-formacao {
@@ -273,29 +253,30 @@ ul li {
         margin: 0;
         padding: 2px;
     }
-    
+
     .formacao {
         background-image: url('Imagens\\backgrounds2.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
-        /* align-items: center;
-        justify-content: center;*/
-        text-align: left; 
+        text-align: left;
         color: white;
     }
-    .formacao h1{
-        text-align: center; 
+
+    .formacao h1 {
+        text-align: center;
     }
+
     .menu li:not(:last-child) {
         margin-right: 8px;
     }
 }
 
-
-/* CSS HEX
+/* Cores personalizadas */
+/* 
 --malachite: 14E956ff;
 --rich-black:  #080E14ff;
 --french-gray: #B7C4D3ff;
 --charcoal: #3C4959ff;
---dark-green: #0C3820ff; */
+--dark-green: #0C3820ff; 
+*/
