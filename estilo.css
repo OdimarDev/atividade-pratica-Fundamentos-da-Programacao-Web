@@ -141,7 +141,7 @@ footer {
 
 /* Estilização adicional para a página de formação */
 .formacao {
-    background-image: url('Imagens\\backgrounds2.jpg'); /* Imagem de fundo */
+    /* background-image: url('Imagens\\backgrounds2.jpg'); Imagem de fundo */
     background-size: cover;
     background-position: center;
     height: 150vh;
@@ -240,6 +240,29 @@ footer {
     margin-bottom: 15px;
 }
 
+
+
+/* Estilize os links do portfólio */
+.portifolio a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #39ff14; /* Cor do link */
+    border-bottom: 1px solid #39ff14;
+    transition: color 0.3s; /* Transição suave da cor */
+}
+
+.portifolio a:hover {
+    color: #ffce00; /* Cor do link ao passar o mouse */
+    border-bottom: 1px solid #ffce00; /* Sublinhado ao passar o mouse */
+}
+
+.portifolio a:focus {
+    outline: none; /* Remova a borda ao focar no link */
+}
+
+
+  
 /* Estilos para telas pequenas */
 @media screen and (max-width: 768px) {
     header {
@@ -255,7 +278,6 @@ footer {
     }
 
     .formacao {
-        background-image: url('Imagens\\backgrounds2.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
